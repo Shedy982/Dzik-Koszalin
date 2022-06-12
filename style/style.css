@@ -1,0 +1,229 @@
+/* ==============================================    
+
+            Default Values
+
+Font: Open Sans Railway(Headers), sans serif
+
+Colors:
+1    Red: rgba(226,0,25);
+2.   White: #fff;  
+3.   Grey(for links):#D4D9DB;
+
+=================================================*/
+
+/*================================================
+
+                Basic Setup
+
+=================================================*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/tlo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+/*================================================
+
+                Header
+
+=================================================*/
+
+
+header {
+    width: 100%;
+    background-color: rgba(226, 0, 25, 0.75);
+    box-shadow: 0px 2px 2px #000;
+    border-bottom: 2px solid black;
+
+}
+
+.heading {
+    display: flex;
+    max-width: 1400px;
+    margin: 0px auto;
+    justify-content: space-between;
+    height: 9vh;
+}
+
+.img-nav {
+    width: 165px;
+    height: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.img-nav img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.img-nav:hover {
+    background-color: rgba(226, 0, 25, 1);
+}
+
+
+.nav-menu a {
+    padding: 29px 0;
+    color: #fff;
+    font-size: 22px;
+    transition: all .3s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-menu a:hover {
+    background-color: rgba(226, 0, 25, 1);
+
+}
+
+.nav-menu li {
+    padding: 29px 45px;
+    transition: all .3s ease-in-out;
+}
+
+
+.nav-menu li:hover {
+    transform: scale(1.1);
+}
+
+/*================================================
+
+                Main Page
+
+=================================================*/
+
+.mainpage {
+    width: 100%;
+}
+
+.shadow-box {
+    display: flex;
+    max-width: 1400px;
+    background-color: rgba(226, 0, 25, 0.75);
+    border: 2px solid black;
+    margin: 114px auto;
+    padding: 75px 50px;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+
+.img-box {
+    height: 100%;
+
+}
+
+
+.img-box img {
+    border: 2px solid black;
+    max-width: 475px;
+}
+
+.boxtext {
+    max-width: 475px;
+}
+
+.boxtext h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 43px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+
+}
+
+.boxtext ul {
+    display: flex;
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
+
+.boxtext li:last-child {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+
+.boxtext p {
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.boxtext span {
+    font-size: 28px;
+    text-decoration: none;
+}
+
+
+.boxtext h3 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 7px;
+
+}
+
+.boxtext h3:hover {
+    color: #D4D9DB;
+}
+
+.boxtext h3 span {
+    font-size: 27px;
+}
+
+
+/*================================================
+
+                Footer
+
+=================================================*/
+
+footer {
+    background-color: rgba(226, 0, 25, 0.75);
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    box-shadow: 0px -2px 2px #000;
+    border-top: 2px solid #000;
+}

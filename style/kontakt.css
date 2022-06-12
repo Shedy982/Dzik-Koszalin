@@ -1,0 +1,192 @@
+/* ==============================================    
+
+            Default Values
+
+Font: Open Sans Railway(Headers), sans serif
+
+Colors:
+1    Red: rgba(226,0,25);
+2.   White: #fff;  
+3.   Grey(for links):#D4D9DB;
+
+=================================================*/
+
+/*================================================
+
+                Basic Setup
+
+=================================================*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/tlo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+/*================================================
+
+                Header
+
+=================================================*/
+
+
+header {
+    width: 100%;
+    background-color: rgba(226, 0, 25, 0.75);
+    box-shadow: 0px 2px 2px #000;
+    border-bottom: 2px solid black;
+
+}
+
+.heading {
+    display: flex;
+    max-width: 1400px;
+    margin: 0px auto;
+    justify-content: space-between;
+    height: 9vh;
+}
+
+.img-nav {
+    width: 165px;
+    height: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.img-nav img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.img-nav:hover {
+    background-color: rgba(226, 0, 25, 1);
+}
+
+
+.nav-menu a {
+    padding: 29px 0;
+    color: #fff;
+    font-size: 22px;
+    transition: all .3s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-menu a:hover {
+    background-color: rgba(226, 0, 25, 1);
+
+}
+
+.nav-menu li {
+    padding: 29px 45px;
+    transition: all .3s ease-in-out;
+}
+
+
+.nav-menu li:hover {
+    transform: scale(1.1);
+}
+
+/*================================================
+
+                Main Page
+
+=================================================*/
+
+.mainpage {
+    width: 100%;
+}
+
+.shadow-box1 {
+    display: flex;
+    max-width: 1400px;
+    background-color: rgba(226, 0, 25, 0.75);
+    border: 2px solid black;
+    margin: 125px auto;
+    padding: 90px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.text-box {
+    padding-bottom: 10px;
+}
+
+.text-box h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+
+.text-box p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+.text-box p span {
+    font-size: 30px;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    text-transform: none;
+    color: #fff;
+}
+
+.text-box p span:hover {
+    color: #D4D9DB;
+    border-bottom: 2px solid #D4D9DB;
+}
+
+.shadow-box1 img {
+    border: 2px solid black;
+}
+
+
+
+/*================================================
+
+                Footer
+
+=================================================*/
+
+footer {
+    background-color: rgba(226, 0, 25, 0.75);
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    box-shadow: 0px -2px 2px #000;
+    border-top: 2px solid #000;
+}

@@ -1,0 +1,604 @@
+/*================================================
+
+                Media Query
+
+=================================================*/
+
+@media all and (max-width: 1200px) {
+
+    .shadow-box {
+        max-width: 950px;
+        padding: 55px 35px;
+        margin: 158px auto 159px auto;
+    }
+
+    .shadow-box1 {
+        max-width: 950px;
+        padding: 55px 35px;
+        margin: 203px auto;
+    }
+
+    .shadow-box2 {
+        max-width: 950px;
+        padding: 55px 35px;
+        margin: 203px auto;
+    }
+
+    .nav-menu a {
+        padding: 25px 0;
+
+    }
+
+    .img-box img {
+        max-width: 400px;
+    }
+
+    .boxtext {
+        max-width: 400px;
+    }
+
+    .boxtext h2 {
+        font-size: 35px;
+        padding-bottom: 5px;
+
+    }
+
+    .boxtext ul {
+
+        font-size: 18px;
+
+    }
+
+
+    .boxtext li:last-child {
+        padding-bottom: 10px;
+    }
+
+
+    .boxtext p {
+        font-size: 19px;
+        margin-top: 5px;
+    }
+
+    .boxtext span {
+        font-size: 23px;
+    }
+
+    .boxtext p {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    .boxtext span {
+        font-size: 23px;
+    }
+
+
+    .boxtext h3 {
+        font-size: 24px;
+        margin-top: 3px;
+
+    }
+
+
+    .boxtext h3 span {
+        font-size: 25px;
+    }
+
+    .text-box {
+        padding-bottom: 0px;
+    }
+
+    .text-box h2 {
+
+        font-size: 40px;
+    }
+
+
+
+    .text-box p {
+        font-size: 28px;
+        margin: 20px auto;
+    }
+
+
+    .text-box p span {
+        font-size: 30px;
+    }
+
+
+
+}
+
+@media all and (max-width: 1024px) {
+
+
+    .shadow-box {
+        max-width: 650px;
+        padding: 50px 50px;
+        margin: 158px auto 159px auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shadow-box1 {
+        max-width: 650px;
+        padding: 50px 35px;
+        margin: 158px auto 159px auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shadow-box2 {
+        max-width: 650px;
+        padding: 65px 35px;
+        margin: 105px auto 105px auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-box img {
+        max-width: 450px;
+    }
+
+    .boxtext {
+        max-width: 450px;
+        margin-top: 10px;
+    }
+
+    .boxtext h2 {
+        font-size: 40px;
+        padding-bottom: 5px;
+
+    }
+
+    .boxtext ul {
+        margin-top: 5px;
+        font-size: 21px;
+
+
+    }
+
+    .boxtext li {
+        padding-bottom: 10px;
+    }
+
+    .boxtext li:last-child {
+        padding-bottom: 10px;
+    }
+
+
+    .boxtext p {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .boxtext span {
+        font-size: 23px;
+    }
+
+
+
+    .boxtext span {
+        font-size: 23px;
+    }
+
+
+    .boxtext h3 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+
+    .boxtext h3 span {
+        font-size: 30px;
+    }
+
+    .text-box p {
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+
+    .nav-menu a {
+        font-size: 16px;
+        padding: 32px 0;
+    }
+
+    .nav-menu li {
+        padding: 32px 30px;
+    }
+
+    .car-image h3 {
+        font-size: 23px;
+        padding: 10px 0px;
+    }
+
+    .car-image p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+        font-size: 19px;
+        padding: 5px 10px 10px 10px;
+    }
+
+
+
+    .upper-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+
+    .car-image {
+        width: 100%;
+        border: 2px solid black;
+        margin-bottom: 55px;
+
+    }
+
+    .car-image:last-child {
+        margin-bottom: 0px;
+    }
+
+
+    .lower-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .serves h2 {
+        font-size: 36px;
+        padding-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .serves h3 {
+        font-size: 23px;
+        margin-top: 25px;
+    }
+
+    .serves h3 span {
+        font-size: 21px;
+    }
+
+    .serves p {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .serve-links {
+        margin-top: 25px;
+    }
+
+    .serve-links h2 {
+        font-size: 23px;
+    }
+
+    .serve-links p {
+        font-size: 22px;
+        margin-top: 15px;
+    }
+
+
+    .serve-links a span {
+        font-size: 20px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+
+    .shadow-box {
+        max-width: 450px;
+        padding: 25px;
+        margin: 100px auto 100px auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shadow-box1 {
+        max-width: 450px;
+        padding: 25px;
+        margin: 105px auto 105px auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shadow-box2 {
+        max-width: 450px;
+        padding: 15px 15px;
+        margin: 105px auto 105px auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-box img {
+        max-width: 325px;
+
+    }
+
+    .boxtext {
+        max-width: 325px;
+    }
+
+    .boxtext h2 {
+        font-size: 35px;
+        padding-bottom: 5px;
+    }
+
+    .boxtext ul {
+        margin-top: 0px;
+        font-size: 20px;
+
+    }
+
+    .boxtext li {
+        margin-top: 5px;
+    }
+
+
+    .boxtext li:last-child {
+        padding-bottom: 10px;
+    }
+
+    .boxtext p {
+        font-size: 20px;
+        margin-top: 9px;
+    }
+
+    .boxtext span {
+        font-size: 22px;
+    }
+
+
+    .boxtext h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+
+    .boxtext h3 span {
+        font-size: 20px;
+    }
+
+    .nav-menu a {
+        font-size: 14px;
+        padding: 16px 0;
+    }
+
+    .nav-menu li {
+        padding: 16px 10px;
+    }
+
+    .upper-box {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+
+    .car-image {
+        width: 100%;
+        border: 2px solid black;
+        margin-bottom: 50px;
+
+    }
+
+    .img-box1 img {
+        width: 100%;
+    }
+
+
+
+    .shadow-box h2 {
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
+
+    .text-box h2 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+
+
+    .text-box p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 29px;
+        color: #fff;
+        text-align: center;
+        margin: 25px auto;
+
+    }
+
+
+    .text-box p span {
+        font-size: 26px;
+        border-bottom: 1px solid #fff;
+        cursor: pointer;
+        text-transform: none;
+    }
+
+    .text-box {
+        padding: 10px;
+    }
+
+
+
+
+}
+
+
+@media all and (max-width: 480px) {
+
+
+    .shadow-box {
+        max-width: 350px;
+        padding: 20px 35px;
+        margin: 100px auto 100px auto;
+        flex-direction: column;
+    }
+
+    .shadow-box1 {
+        max-width: 350px;
+        padding: 25px 35px;
+        margin: 100px auto 100px auto;
+        flex-direction: column;
+    }
+
+    .shadow-box2 {
+        max-width: 350px;
+        padding: 25px 35px;
+        margin: 100px auto 100px auto;
+        flex-direction: column;
+    }
+
+    .img-box {
+        margin: 0 auto;
+    }
+
+    .img-box img {
+        max-width: 250px;
+
+    }
+
+    .upper-box {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .lower-box {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .boxtext {
+        max-width: 250px;
+        margin: 0 auto;
+
+    }
+
+    .boxtext h2 {
+        margin-top: 10px;
+        font-size: 30px;
+        padding-bottom: 5px;
+
+    }
+
+    .boxtext ul {
+        margin-top: 0px;
+        font-size: 16px;
+
+    }
+
+    .boxtext li {
+        margin-top: 2px;
+    }
+
+
+    .boxtext li:last-child {
+        padding-bottom: 7px;
+    }
+
+
+    .boxtext p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .boxtext h3 {
+        font-size: 24px;
+    }
+
+    .nav-menu a {
+        font-size: 14px;
+        padding: 11px 0px;
+    }
+
+    .nav-menu li {
+        padding: 11px 10px;
+    }
+
+
+    footer {
+        font-size: 14px;
+    }
+
+    .text-box h2 {
+        font-size: 36px;
+
+    }
+
+    .text-box p {
+
+        font-size: 23px;
+
+    }
+
+
+    .text-box p span {
+        font-size: 23px;
+    }
+
+    .boxtext h3 span {
+        font-size: 25px;
+    }
+
+    .serves h2 {
+        font-size: 32px;
+        padding-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .serves h3 {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+
+    .serves h3 span {
+        font-size: 22px;
+    }
+
+    .serves p {
+        font-size: 19px;
+        margin-top: 15px;
+    }
+
+    .serve-links {
+        margin-top: 25px;
+    }
+
+    .serve-links h2 {
+        font-size: 22px;
+    }
+
+    .serve-links p {
+        font-size: 22px;
+        margin-top: 15px;
+    }
+
+
+    .serve-links a span {
+        font-size: 20px;
+    }
+
+
+}

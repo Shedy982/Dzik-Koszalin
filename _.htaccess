@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^autopomoc-dzik.pl(.*) [NC]
+RewriteRule ^(.*)$ http://autopomoc-dzik.pl/$1 [R=301,L]
+RewriteRule ^index.(php|html|htm)$ / [R=301,L]
+RewriteRule ^([a-z0-9-_]+)/index.(php|html|htm)$ /$1/ [R=301,L]
